@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+.next/
+out/
+coverage/
+
+# Turborepo
+.turbo/
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Rust
+target/
+**/*.rs.bk
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+*.log

@@ -1,0 +1,13 @@
+{
+  "name": "@virtualhems/bridge-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Virtual HEMS cross-platform desktop bridge (Tauri v2 / Rust). Wires the Rust bridge crate into the Turborepo pipeline.",
+  "scripts": {
+    "build": "node ./scripts/cargo.mjs build --release",
+    "lint": "node ./scripts/cargo.mjs clippy -- -D warnings",
+    "typecheck": "node ./scripts/cargo.mjs check",
+    "test": "node ./scripts/cargo.mjs test",
+    "clean": "node ./scripts/cargo.mjs clean"
+  }
+}

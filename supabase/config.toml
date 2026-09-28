@@ -1,0 +1,11 @@
+# Supabase local development configuration for Virtual HEMS.
+# Managed by the Supabase CLI. Regenerate/extend with `supabase init` as tooling evolves.
+project_id = "virtual-hems"
+
+[db]
+# PostgreSQL 15+ with PostGIS is required (design Section 5, tech stack).
+major_version = 15
+
+[db.migrations]
+# Migrations live under supabase/migrations as timestamped SQL files.
+schema_paths = []

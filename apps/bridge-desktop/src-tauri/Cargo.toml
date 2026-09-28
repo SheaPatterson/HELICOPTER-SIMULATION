@@ -1,0 +1,49 @@
+[package]
+name = "virtualhems-bridge"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.78"
+description = "Virtual HEMS cross-platform desktop bridge: simulator adapters, offline ring buffer, and TLS uplink."
+license = "UNLICENSED"
+publish = false
+
+# Bridge targets Windows 10/11 x86_64 and macOS x86_64/aarch64 (design Section 2.9).
+
+[lib]
+name = "virtualhems_bridge"
+path = "src/lib.rs"
+
+[[bin]]
+name = "virtualhems-bridge"
+path = "src/main.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+# The durable offline ring buffer (task 5.3). The `bundled` feature compiles a
+# vendored SQLite (amalgamation) into the crate so CI and every target
+# (Windows 10/11 x86_64, macOS x86_64/aarch64) build without a system SQLite or
+# a `pkg-config`/`sqlite3` dev package present. Pinned to a compatible minor
+# range; `bundled` also pins the vendored SQLite version reproducibly.
+rusqlite = { version = "0.31", features = ["bundled"] }
+# TLS uplink (task 5.6). rustls is a pure-Rust TLS stack, so the bridge builds
+# and runs on every target (Windows 10/11 x86_64, macOS x86_64/aarch64) WITHOUT
+# a system OpenSSL or native-tls — keeping the bundled distributable portable
+# (design Section 2.9). We drive rustls directly over std's blocking `TcpStream`
+# (no async runtime): rustls (a) lets us restrict the protocol range to TLS
+# 1.2+ via `builder_with_protocol_versions` (requirement 8.8) and (b) exposes
+# the *negotiated* protocol version via `CommonState::protocol_version()` after
+# the handshake, which is exactly what enforcing the 8.8a "treat sub-1.2 as not
+# established" rule requires. The `tls12` feature enables the 1.2 floor; `ring`
+# is the default crypto provider. `webpki-roots` supplies a portable trust
+# anchor set so no platform cert store is required. `rustls-pki-types` provides
+# the `ServerName` type the client connection is built with.
+rustls = { version = "0.22", default-features = false, features = ["ring", "logging", "tls12"] }
+rustls-pki-types = "1"
+webpki-roots = "0.26"
+
+[dev-dependencies]
+proptest = "1"
+
+[profile.release]
+strip = true

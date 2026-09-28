@@ -1,0 +1,1042 @@
+{
+  "pbtResults": {
+    "9.3 Write property test for clinical monotonicity": {
+      "status": "passed",
+      "lastRunTimestamp": 1790570533084
+    }
+  },
+  "executionHistory": {
+    "1.1 Set up Turborepo workspace, package boundaries, and test tooling": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562279622
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562289240
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562817292
+      }
+    ],
+    "1.2 Define shared telemetry, mission, clinical, and AAR contract types": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562279683
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562820703
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790563067382
+      }
+    ],
+    "1.3 Write unit tests for contract normalization helpers": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562279762
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790563071756
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790563533962
+      }
+    ],
+    "2.1 Author PostgreSQL/PostGIS schema and migrations": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562279845
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790563072799
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790563534936
+      }
+    ],
+    "2.2 Implement RLS policies and role scoping": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562279884
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790563540181
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790567446778
+      }
+    ],
+    "2.3 Seed medical condition matrix and regional infrastructure": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562279921
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790563541564
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790567469551
+      }
+    ],
+    "2.4 Write integration tests for RLS and spatial indexes": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562279955
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790567474528
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790568677016
+      }
+    ],
+    "3. Checkpoint - contracts and schema": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562279989
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790580998181
+      }
+    ],
+    "4.1 Implement the SimulatorAdapter interface and X-Plane UDP adapter": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280026
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790563542951
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790567448062
+      }
+    ],
+    "4.2 Implement the MSFS SimConnect adapter": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280059
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790563543999
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790567449436
+      }
+    ],
+    "4.3 Write unit tests for adapter mapping and source-loss handling": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280093
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790567475945
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790568678326
+      }
+    ],
+    "5.1 Implement bridge runtime, sampling loop, and telemetry validation/normalization": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280129
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790567477369
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790568675679
+      }
+    ],
+    "5.2 Write property test for telemetry validity": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280164
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790568684439
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569052160
+      }
+    ],
+    "5.3 Implement the SQLite offline ring buffer and durable append": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280200
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790568685951
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569049419
+      }
+    ],
+    "5.4 Implement offline replay with retry, backoff, and permanent-failure handling": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280237
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569063325
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569550890
+      }
+    ],
+    "5.5 Write property test for durable delivery and replay idempotency/ordering": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280275
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569565641
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570075286
+      }
+    ],
+    "5.6 Implement the TLS uplink client": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280308
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569561407
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570073829
+      }
+    ],
+    "5.7 Write unit tests for TLS abort and queue capacity behavior": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280344
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569068488
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569554939
+      }
+    ],
+    "6. Checkpoint - bridge, adapters, and offline durability": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280397
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790581002469
+      }
+    ],
+    "7.1 Implement the telemetry ingestion API and idempotent persistence": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280434
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790567478415
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790568679471
+      }
+    ],
+    "7.2 Implement realtime asset-state fanout": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280467
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790568687266
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569055478
+      }
+    ],
+    "7.3 Write integration tests for ingestion and idempotency": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280503
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790568688754
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569053529
+      }
+    ],
+    "8.1 Implement Stage 1 Details and Stage 2 Crew validation": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280538
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790568689715
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569050743
+      }
+    ],
+    "8.2 Implement Stage 3 Patient Info and Stage 4 Flight Plan": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280576
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569064601
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569553545
+      }
+    ],
+    "8.3 Implement mission authorization, gating enforcement, and audit events": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280609
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569564200
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570071069
+      }
+    ],
+    "8.4 Write property test for dispatch gating": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280644
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570399391
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570715681
+      }
+    ],
+    "8.5 Write unit tests for stage validation and override rules": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280676
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569067370
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569556139
+      }
+    ],
+    "9.1 Implement condition resolution and Golden Hour timer initiation": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280730
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569065980
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569552140
+      }
+    ],
+    "9.2 Implement deterministic deterioration, GCS clamp, and monotonic state": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280776
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569562840
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570076484
+      }
+    ],
+    "9.3 Write property test for clinical monotonicity": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280821
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570400783
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570711726
+      }
+    ],
+    "9.4 Write unit tests for decay boundaries and condition validation": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280868
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569566792
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570072428
+      }
+    ],
+    "10. Checkpoint - ingestion, dispatch, and clinical core": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280909
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790581006563
+      }
+    ],
+    "11.1 Implement eligibility filtering and deterministic ordering": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280952
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570090060
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570391666
+      }
+    ],
+    "11.2 Implement provenance records and Ironpine fallback": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562280988
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570396599
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570710337
+      }
+    ],
+    "11.3 Write property test for recommendation safety": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281022
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571125111
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571656990
+      }
+    ],
+    "11.4 Write unit tests for ordering determinism and ineligibility": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281056
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570401733
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570714589
+      }
+    ],
+    "12.1 Implement service-state derivation and status indicators": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281093
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570397946
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570713168
+      }
+    ],
+    "12.2 Write property test for degraded-state honesty": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281125
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571126011
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571655513
+      }
+    ],
+    "13.1 Implement authorized mission-package display and live state": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281159
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571123665
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571654100
+      }
+    ],
+    "13.2 Implement crew event capture, checklists, and independent-destination submission": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281204
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790572011046
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790575915855
+      }
+    ],
+    "13.3 Write unit tests for authorization gating and partial-failure retry": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281238
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576160837
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576449389
+      }
+    ],
+    "14.1 Implement metric derivation and no-fabrication guarantee": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281273
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571122291
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571652738
+      }
+    ],
+    "14.2 Implement compliance scoring, immutable persistence, and logbook update": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281308
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790572009644
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576152849
+      }
+    ],
+    "14.3 Write property test for auditability": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281342
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576162180
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576450749
+      }
+    ],
+    "14.4 Write integration test for touchdown-to-report flow": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281375
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576163578
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576452164
+      }
+    ],
+    "15. Checkpoint - recommendation, EFB, AAR, and degraded state": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281436
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790581010616
+      }
+    ],
+    "16.1 Implement credential validation and audit logging": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281470
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570785201
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571117258
+      }
+    ],
+    "16.2 Write unit/integration tests for auth denial and audit-failure rollback": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281506
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571127454
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571658162
+      }
+    ],
+    "17.1 Implement public pages and canonical route redirects": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281542
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571664712
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790572004689
+      }
+    ],
+    "17.2 Implement registration and post-auth redirect": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281578
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790572013194
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790575913102
+      }
+    ],
+    "17.3 Write unit tests for route canonicalization and public de-identification": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281620
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576164689
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576453572
+      }
+    ],
+    "18.1 Implement VIRS submission, validation, and access control": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281655
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790572012007
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790575914458
+      }
+    ],
+    "18.2 Write unit tests for VIRS validation and reviewer-only retrieval": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281692
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576165880
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576454506
+      }
+    ],
+    "19.1 Wire the full mission lifecycle path": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281725
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576469383
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576981928
+      }
+    ],
+    "19.2 Write end-to-end integration tests for the lifecycle and fault recovery": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281759
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576985799
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790580959941
+      }
+    ],
+    "20. Final checkpoint - full integration": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790562281789
+      },
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790581015854
+      }
+    ],
+    "1. Establish monorepo foundation and shared contracts": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790563534057
+      }
+    ],
+    "2. Create database schema, spatial model, and RLS policies": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790568677190
+      }
+    ],
+    "4. Implement simulator adapters (Rust bridge)": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790568678382
+      }
+    ],
+    "7. Implement telemetry ingestion and realtime fanout (cloud/TS)": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790569055542
+      }
+    ],
+    "5. Implement bridge runtime, offline queue, and TLS uplink (Rust)": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570075330
+      }
+    ],
+    "9. Implement the clinical Golden Hour engine (cloud/TS)": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570711768
+      }
+    ],
+    "8. Implement the four-stage dispatch state machine (cloud/TS)": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790570715732
+      }
+    ],
+    "12. Implement degraded-state derivation and shared status client (TS)": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571655557
+      }
+    ],
+    "11. Implement spatial facility recommendation (cloud/TS)": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571657037
+      }
+    ],
+    "16. Implement authentication, authorization, and audit enforcement (cloud/TS)": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790571658208
+      }
+    ],
+    "13. Implement the cockpit EFB (web/TS)": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576449441
+      }
+    ],
+    "14. Implement the AAR engine (cloud/TS)": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576452209
+      }
+    ],
+    "17. Implement public and marketing surfaces (web/TS)": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576453615
+      }
+    ],
+    "18. Implement non-punitive safety reporting (cloud + web/TS)": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790576454546
+      }
+    ],
+    "19. Integration and end-to-end wiring": [
+      {
+        "executionId": "42611de7-c247-47dc-b8c8-7b736122ea43",
+        "chatSessionId": "sess_a525b9a0-cb54-429a-aceb-ee95887b1aca",
+        "timestamp": 1790580959999
+      }
+    ]
+  }
+}
